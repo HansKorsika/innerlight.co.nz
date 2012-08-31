@@ -1,3 +1,21 @@
+/*---- Sorted Alphabetically ----*/
+
+body {
+  font-family:"Arial Rounded MT Bold", Helvetica, sans-serif;
+  font-family:"Verdana", Geneva, sans-serif;
+  font-family:"Tahoma", Geneva, sans-serif;
+  font-family:"Bradley Hand ITC", Geneva, cursive;
+  font-family:"Arial", Helvetica, sans-serif;
+  font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-family:"Times New Roman", Times, serif;   /* Default Font Face !? */
+  font-size:100%;
+}
+
+.center {
+  width:700px;
+  margin:auto;
+}
+
 .center-logo {
   width: 468px;
   margin: auto;
@@ -5,7 +23,7 @@
 
 .center-text {
   text-align:center;
-  font-family: "Tahoma";
+/*  font-family: "Tahoma"; */
 }
 
 .center-text a {
@@ -17,46 +35,26 @@
   font-style: bold;
 }
 
-.center {
-  width:700px;
-  margin:auto;
-}
-
-
-.tabbar {
-  border: 1px solid;
-  border-top: 0px;
-}
-
-.header {
-  border: 1px solid;
-}
-
-.menuitem {
-  border-right: 1px solid;
-  padding: 0px 2px 0px 2px;
-  float:left;
-  width:80px;
-  text-align:center;
-}
-
-.menuitem a {
-  color:black;
-  text-decoration: none;
-}
-
-.menuitem.right {
-  float:right;
-  border-right: 0px;
-  border-left: 1px solid;
+.center-text h5 {
+  color: black;
+  font-style: bold;
 }
 
 .clear {
   clear:both;
 }
 
-.logo {
-  float:left;
+.content h2 {
+}
+
+.copyright {
+  float:right;
+}
+
+.header {
+  border: 1px solid;
+  padding-top: 5px;
+  padding-left: 5px;
 }
 
 .header span {
@@ -65,5 +63,57 @@
   margin: 10px;
 }
 
-.content h2 {
+.logo {
+  float:left;
+}
+
+.menu-item {
+  border-right: 1px solid;
+  padding: 0px 2px 0px 2px;
+  float:left;
+/*---- Adjusted tab width to fit more items. Also reduced the font size. ----*/
+  width:82px;
+  text-align:center;
+}
+
+.menu-item a {
+  color:black;
+  text-decoration: none;
+}
+
+.menu-item.right {
+  float:right;
+  border-right: 0px;
+  border-left: 1px solid;
+}
+
+.nav-bar {
+  border: 1px solid;
+  color: black;
+}
+
+.nav-item a {
+  color:black;
+  text-decoration: none;
+}
+
+.reiki {
+  float:right;
+}
+
+.tab-bar {
+/*---- Reduced the font size to fit long words better. Also adjusted tab width ----*/
+  font-size:80%;
+  border: 1px solid;
+  border-top: 0px;
+}
+
+.tag-line {
+  font-size:48%;
+  float:right;
+}
+
+.title {
+  font-size:70%;
+  float:right;
 }

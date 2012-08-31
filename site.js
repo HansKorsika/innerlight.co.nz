@@ -2,7 +2,7 @@ $ = jQuery;
 $('.section').hide();
 $('.section.welcome').show();
 var currentSection = "welcome";
-$('.menuitem a').on('click', function (e) {
+$('.menu-item a').on('click', function (e) {
   e.preventDefault();
   var anchor = $(this).attr('href').substring(1);
   if (currentSection == anchor)

@@ -1,59 +1,475 @@
 <html>
+
+<!---- Somewhere on this website I would like to indicate that a newer and more comprehensive website is going to be created later. See below ---->
+
+<!---- Don't forget to make it so that when going to different pages with jquery, it displays the page address in address bar ---->
+
 <head>
-<title>Inner Light</title>
-<link rel="stylesheet" href="style.css" type="text/css"/>
+  <title>Inner Light</title>
+  <link rel="stylesheet" href="style.css" type="text/css"/>
 </head>
+
 <body>
-<div class="center">
-<div class="header"><img class="logo" src="inner-light-logo.jpg" width="100px" height="100px"/><span>INNER LIGHT</span><div class="clear"></div></div>
+<!---- I'd like all text in font family "Arial Rounded MT Bold". I am aware though that this fonr is wider! But I love it. It is so round :) ---->
+<!---- IHowever, I can live with the standard font. I think Tahoma did not look that nice. ---->
+  <div class="center">
+    <div class="header">
+      <img class="logo" src="inner-light-logo.jpg" alt="Inner Light Logo" width="110px" height="100px"/>
 
-<div class="tabbar">
-<span class="menuitem"><a href="#welcome">Welcome</a></span>
-<span class="menuitem"><a href="#details">Details</a></span>
-<span class="menuitem"><a href="#sessions">Sessions</a></span>
-<span class="menuitem right"><a href="#contact">Contact</a></span>
-<span class="menuitem right"><a href="#about-me">About Me</a></span>
-<div class="clear"></div>
-</div>
+      <div class="title"> 
+      <span>INNER LIGHT</span>
+<!---- I'd like this in font family "Bradley Hand ITC" (in line with leaflet and business card), or Graphic below ---->
+<!----    <img class="title" src="inner-light-title.jpg" alt="Inner Light Title" width="400px" height="80px"/>  ----->
+      </div>
 
-<div class="content">
+      <div class="tag-line"> 
+      <span>Spiritual Guidance on Your Journey towards Enlightenment</span>
+<!---- I'd like this in font family "Bradley Hand ITC" (in line with leaflet and business card), or Graphic below ---->
+<!----    <img class="tag-line" src="inner-light-tag-line.jpg" alt="Inner Light Tag Line" width="400px" height="20px"/>  ---->
+      </div>
+   
+      <div class="clear"></div> 
+    </div>
 
-<div class="section welcome">
-<a name="welcome"></a>
-<h2>You are a spiritual being</h2>
-<p>&ldquo;We are not human beings having a spiritual experience. We are spiritual beings having a human experience.&rdquo; <em>Dr Wayne Dyer</em></p>
-<h2>What is this about?</h2>
-<p>If the story, that is your life, ...</p>
-<p>If, however, there are a few, or a great many, paragraphs ... </p>
-</div>
+    <div class="tab-bar">
+<!---- There may be more items later, more "leaflet inserts, as well as one that points towards my PROPER Inner Light website ---->
+<!---- Also: Can we somehow BOLD (or Uppercase) the current section displayed? So that people know which section is displayed. E.g. Bold "Welcome" on Wecome page ---->
+      <span class="menu-item"><a href="#welcome">Introduction</a></span>
+      <span class="menu-item"><a href="#details">Details</a></span>
+      <span class="menu-item"><a href="#ready">Ready?</a></span>
+      <span class="menu-item"><a href="#sessions">Sessions</a></span>
+      <span class="menu-item"><a href="#about-me">About Me</a></span>
+      <span class="menu-item"><a href="#contact">Contact</a></span>
+<!---- I have italicised the next two menu items as they are Inserts. Not sure if it is a good idea. What do you think? Looks so-s0! But how else to indicate it? ---->
+<!---- For now I have changed the order of the menu-items to see how it looks when the "Inserts" are at the right side. Not sure. What you think?  ---->
+      <span class="menu-item right"><a href="#reiki"><i>Reiki</i></a></span>
+      <span class="menu-item right"><a href="#being-in-love"><i>Being In Love</i></a></span>
+<!---- Instead of last two items, I would like to use a MORE button, perhaps as drop-down, put "Being In Love" and "Reiki" in it ---->
+<!---- and add more Inserts as they develop, plus a link to my new, "proper" website. ---->
+<!---- <span class="menu-item"><a href="#More">...</a></span> ---->
+      <div class="clear"></div>
+    </div>
 
-<div class="section details">
-<a name="details"></a>
-<h2>Inner Light</h2>
-<p>The name INNER LIGHT (symbolising our spirituality) and the LOGO, comprising a HEART (to symbolise the perceived home of our spirit), an inward turning SPIRAL (to symbolise our growth path towards it), and a LIGHT (to symbolise our spirit itself) is a reminder of the journey we are all on, consciously or unconsciously, and its destination the conscious (re)connection with our divine true nature. </p>
-<h2>Spiritual Guidance</h2>
-<p>Spiritual guiding, to me, means being guided by one's own spirit towards connectedness with the divine ...</p>
-<h2>
-</div>
-</div>
+    <div class="copyright">
+      <span><h5>&copy;&nbsp;God ;)</h5></span>
+<!---- I'd like the line smack under the tab-bar on the right of the box ---->
+    </div>
 
-<div class="section sessions">
-<a name="sessions"></a>
-<h2>Sessions</h2>
-</div>
+    <div class="content">
 
-<div class="section about-me">
-<a name="about-me"></a>
-<h2>About Me</h2>
-</div>
+      <div class="section welcome">
+        <a name="welcome"></a>
 
-<div class="section contact">
-<a name="contact"></a>
-<h2>Contact</h2>
-</div>
+        <h3>YOU ARE A SPIRITUAL BEING</h3>
+        <p>&ldquo;We are not human beings having a spiritual experience. We are spiritual beings having a human experience.&rdquo; <br /><em>Dr Wayne Dyer</em></p>
 
-</div>
-<script src="jquery-1.8.0.min.js" type="text/javascript"></script>
-<script src="site.js" type="text/javascript"></script>
+        <h3>WHAT IS THIS ABOUT?</h3>
+If the story, that is your life, is unfolding exactly the way you wish it to unfold, you may stop reading now, and kindly pass the address of this website on to someone whose life story is not to their utmost satisfaction.
+        <p>
+        </p>
+
+        <p>
+If however, there are a few, or a great many, paragraphs or chapters in your life's story, that you wish to change, then open your mind and heart very wide, now, and read on.
+        </p>
+
+        <p>
+I can guide you towards a better way of living your life. A spiritual life.
+        </p>
+
+        <p>
+At the very least you will VIEW your life somewhat differently, be more relaxed about it, and therefore feel more at one with yourself.
+        </p>
+
+        <p>
+At the very best you will fully understand that you ARE a part of the unlimited, eternal, living, intelligent, and creative spirit which is our universe, that you possess all its powers, and that you are able to shape your life story in any way you like.
+        </p>
+
+        <p>
+I can guide you towards your spirit, to examine the very reason why you do not remember that you are a spiritual being, and teach you to take control over the creator of all your life experiences:  YOUR MIND!
+        </p>
+
+        <h3>INNER LIGHT</h3>
+        <p>
+The name INNER LIGHT (symbolising our spirituality) and the LOGO, comprising of a HEART (to symbolise the perceived home of our spirit), an inward turning SPIRAL (to symbolise our growth path towards it), and a LIGHT (to symbolise our spirit itself) is a reminder of the journey we are all on, consciously or unconsciously, and its destination, the conscious (re)connection with our divine true nature.
+        </p>
+
+        <h3>SPIRITUAL GUIDANCE</h3>
+        <p>
+SPIRITUAL GUIDING, to me, means being guided by one's own spirit towards connectedness with the divine.  Whilst other fellow travellers (having experienced periods of connectedness on their journey) can point towards the path (by connecting to, and speaking from their own spiritual self), each person will need to find, trust and follow their own &ldquo;Inner Light&ldquo; to get to the destination &ndash; called enlightenment.
+        </p>
+
+        <h3>YOUR JOURNEY</h3>
+        <p>
+Everyone must seek and find enlightenment, sooner or later, for and by themselves, through an inward journey into one's deepest core.  The journey can only begin when one's time has come, when one is ready to willingly embark on this adventure, is ready to choose, trust and act. This is YOUR JOURNEY too.
+        </p>
+
+        <h3>ENLIGHTENMENT</h3>
+        <p>
+ENLIGHTENMENT is a temporary or permanent state of awareness of one's human mind, during which it realises and accepts the divine nature of one's being, as well as the truth behind our apparent reality, resulting in the enlightened person being in a blissful, peaceful, joyful state, independent of what life presents on the outside.
+        </p>
+
+        <div class="nav-bar">
+<!---- I'd like this Nav Bar at the bottom of all sections/tabs/pages, in a box, working well ... and of course the links side by side not underneath :) ----> 
+<!---- Also, if possible, Top of Page should always go to the very top of each page, i.e. showing the banner with logo, INNER LIGHT etc                  ----> 
+<!---- Perhaps you like just the symbols, and no words ? I do, actually. Do you think people will get it? They need to be spread out a bit then          ----> 
+          <div class="center-text h5">
+            <span class="nav-item"><a href="index.html"><h5>&hearts;</h5></a></span>
+            <span class="nav-item"><a href="#welcome"><h5>&#124;&larr;</h5></a></span>   <!---- Also nice, yet less clear, a &bull instead if &#124 ---->
+            <span class="nav-item"><a href="#welcome"><h5>&larr;</h5></a></span>
+            <span class="nav-item"><a href="#welcome"><h5>&uarr;</h5></a></span>
+            <span class="nav-item"><a href="#details"><h5>&rarr;</h5></a></span>
+            <span class="nav-item"><a href="#reiki"><h5>&rarr;&#124;</h5></a></span>   <!---- Also nice, yet less clear, a &bull instead if &#124 ---->
+            <div class="clear"></div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="section details">
+        <a name="details"></a>
+
+        <h3>THE SERVICE</h3>
+        <p>
+I offer individual sessions for people who are interested, motivated, and ready, to embark on their own inner journey, working towards a life of more ease and acceptance, of peace and joy, using their own inner, divine spiritual self as a guide to get there.
+        </p>
+
+        <p>
+My intent is to lovingly assist anyone and everyone in becoming aware of, and learning to develop and use, their mind's existing connection with their own higher, spiritual self (which is always connected to the universal spirit or Christ Consciousness, Source, God, Love, Is, etc), for guidance and healing.
+        </p>
+
+        <p>
+I support my clients by maintaining awareness of my own spiritual connection to the divine, whilst being in session with them.  I am then becoming a catalyst for my client's awareness to emerge, and grow.
+        </p>
+
+        <h3>THE PROCESS</h3>
+        <h4>R E L A X A T I O N</h4>
+ 
+        <p>
+The process I am hoping to initiate, to support, to foster, and further, in a person, first leads the person from a state of ignorance and unawareness, stress, confusion, fear,  illness, etc, towards deep and ongoing RELAXATION.  This is the very beginning. The crucial basis.
+        </p>
+
+        <h4>I N S P I R A T I O N</h4>
+        <p>
+Whenever deeply relaxed in body, emotions and mind, INSPIRATION (known as intuition, &ldquo;gut feeling&ldquo;, coming from a person's spirit) is able to, and will, enter the person's awareness, advising them of the best way to think, feel, speak and act.
+        </p>
+
+        <h4>T R A N S F O R M A T I O N</h4>
+        <p>
+As more and more inspiration is allowed, accepted and followed by the person's mind, their thinking and behaviour changes more and more, gently, from deep within, in a sustainable and lasting, as well as in a caring and loving way. This is the process of inner, spiritual TRANSFORMATION.
+        </p>
+
+        <h4>E N L I G H T E N M E N T</h4>
+        <p>
+This transformation ultimately leads the person to a final stage of happiness, bliss, health, peace, joy, which is commonly referred to as ENLIGHTENMENT.  Enlightenment will be permanent, in the end, but will also occur along the way. At first occasionally only, and not deep, then more frequent, and deeper, as the person's awareness grows.  So even along the path, during the process, improvements to one's sense of well-being and happiness in life emerge and develop.
+        </p>
+
+        <h3>THE TOOLS</h3>
+        <p>
+I will use a variety of skills and tools to enhance my client's life experience, towards more self-awareness, and awareness of their oneness with the divine.  When working with their CONSCIOUS MIND, I use talking, listening, lectures, readings, discussions, exercises, breathing, affirmations, visualisations, counselling, etc.
+        </p>
+
+        <p>
+Yet more effective is the work directly with a person's UNCONSCIOUS MIND, using touch, symbols, meditation, etc.  This avoids intellectualisations, and bypasses the ever questioning and doubting conscious mind.  One such tool is REIKI, a non-verbal way of directly connecting their spirit with the universal spirit. Reiki works safely, and on all levels: spiritual, mental, emotional, and physical.  Physical touch is hugely transformational, when used as the deepest expression of unconditional love and trust.
+        </p>
+
+        <p>
+I am also offering a broad range of very different perspectives on life, and on the world, in order to assist one's conscious mind to get a better and deeper understanding of our perceived reality. Some of these views one may find strange, or even quite challenging.
+        </p>
+
+        <h3>THE BENEFITS</h3>
+        <p>
+When a person's mind is (re)connected to the person's own spiritual self, and the mind accepts and trusts the spirit's guidance, the person's intuition will always lead the person towards a more healthy, calm and focused mind, more healthy and balanced emotions, as well as a more healthy and fit body.  All else follows.  If all works in harmony with spirit, all will be well.
+        </p>
+
+        <div class="nav-bar">
+<!---- I'd like this Nav Bar at the bottom of all sections/tabs/pages, in a box, working well ... and of course the links side by side not underneath :) ----> 
+<!---- Also, if possible, Top of Page should always go to the very top of each page, i.e. showing the banner with logo, INNER LIGHT etc                  ----> 
+          <div class="center-text h5">
+            <span class="nav-item"><a href="index.html"><h5>Home &hearts;</h5></a></span>
+            <span class="nav-item"><a href="#welcome"><h5>&bull;&larr; First</h5></a></span>
+            <span class="nav-item"><a href="#welcome"><h5>&larr; Previous</h5></a></span>
+            <span class="nav-item"><a href="#details"><h5>&uarr; Top of Page &uarr;</h5></a></span>
+            <span class="nav-item"><a href="#ready"><h5>Next &rarr;</h5></a></span>
+            <span class="nav-item"><a href="#reiki"><h5>Last &rarr;&bull;</h5></a></span>
+            <div class="clear"></div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="section ready">
+        <a name="ready"></a>
+
+        <h3>ARE YOU READY ?</h3>
+        <p>
+If all or some of what I have said on this website so far spoke to you, on some deep level, and you feel somehow that this is right for you right now, then perhaps your time has come. Perhaps you are ready to seek and find your way back home.
+        </p>
+
+        <div class="nav-bar">
+<!---- I'd like this Nav Bar at the bottom of all sections/tabs/pages, in a box, working well ... and of course the links side by side not underneath :) ----> 
+<!---- Also, if possible, Top of Page should always go to the very top of each page, i.e. showing the banner with logo, INNER LIGHT etc                  ----> 
+          <div class="center-text h5">
+            <span class="nav-item"><a href="index.html"><h5>Home &hearts;</h5></a></span>
+            <span class="nav-item"><a href="#welcome"><h5>&bull;&larr; First</h5></a></span>
+            <span class="nav-item"><a href="#details"><h5>&larr; Previous</h5></a></span>
+            <span class="nav-item"><a href="#ready"><h5>&uarr; Top of Page &uarr;</h5></a></span>
+            <span class="nav-item"><a href="#sessions"><h5>Next &rarr;</h5></a></span>
+            <span class="nav-item"><a href="#reiki"><h5>Last &rarr;&bull;</h5></a></span>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section sessions">
+        <a name="sessions"></a>
+
+        <h3>SESSIONS</h3>
+        <p>
+Sessions are usually one-on-one, individual sessions. But I am also able to work with small groups. 
+        </p>
+        <p>
+Sessions are by appointment only, and appointments are allocated in two hour slots.
+        </p>
+
+        <h3>APPOINTMENT TIMES</h3>
+        <p>
+Monday to Saturday&nbsp;&nbsp;&nbsp;6am&nbsp;&nbsp;8am&nbsp;&nbsp;10am&nbsp;&nbsp;2pm&nbsp;&nbsp;4pm&nbsp;&nbsp;6pm&nbsp;8pm
+        </p>
+
+        <h3>DURATION</h3>
+        <p>
+Each session can be as long or as short as you require or wish it to be. But I will also listen to what feels right to me. Generally session are between 60 and 90 minutes long.
+        </p>
+
+        <h3>COST</h3>
+        <p>
+Free.  Expressions of gratitude gratefully accepted.
+        </p>
+
+        <h3>LOCATION</h3>
+        <p>
+By mutual agreement.  I may be able to see you in your home, but prefer my current practice rooms (if available).
+        </p>
+
+        <h3>PHONE TIMES</h3>
+        <p>
+Monday to Saturday&nbsp;&nbsp;&nbsp;12noon to 2pm
+        </p>
+
+        <h3>SUPPORT</h3>
+        <p>
+You are always welcome to bring your partner, or a friend, at any time, if that makes you feel more comfortable.
+        </p>
+
+        <h3>INFORMATION AND CONFIDENTIALITY</h3>
+        <p>
+I do not need any information from you, or about you.  However you are welcome to share.  If disclosed, any information given is treated professionally and confidentially, and remains with me only.
+        </p>
+        <p>
+I will not record any details, before, during, after or about any session, in any form, written, oral, or digital.
+        </p>
+        <p>
+I will not be able to, nor try to, remember what we did in any session.
+        </p>
+        <p>
+I will treat each session as a session with a new client.  After all, you will not be the same person I saw last time. Neither will I.
+        </p>
+
+        <h3>DISCLAIMER</h3>
+        <p>
+I take no responsibility whatsoever for any reactions you may experience, or actions you may perform, before, during or after any session, well knowing that all of us always create all of our experiences, unconsciously or consciously.
+        </p>
+        <p>
+I strongly advise you to always question and evaluate everything.  Including anything I say or do.  Believe no one. Not even your own thoughts or emotions. Trust only your own inner voice of intuition. Only believe what feels true inside you.
+        </p>
+
+        <div class="nav-bar">
+<!---- I'd like this Nav Bar at the bottom of all sections/tabs/pages, in a box, working well ... and of course the links side by side not underneath :) ----> 
+<!---- Also, if possible, Top of Page should always go to the very top of each page, i.e. showing the banner with logo, INNER LIGHT etc                  ----> 
+          <div class="center-text h5">
+            <span class="nav-item"><a href="index.html"><h5>Home &hearts;</h5></a></span>
+            <span class="nav-item"><a href="#welcome"><h5>&bull;&larr; First</h5></a></span>
+            <span class="nav-item"><a href="#ready"><h5>&larr; Previous</h5></a></span>
+            <span class="nav-item"><a href="#sessions"><h5>&uarr; Top of Page &uarr;</h5></a></span>
+            <span class="nav-item"><a href="#about-me"><h5>Next &rarr;</h5></a></span>
+            <span class="nav-item"><a href="#reiki"><h5>Last &rarr;&bull;</h5></a></span>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section about-me">
+        <a name="about-me"></a>
+
+        <h3>ABOUT ME</h3>
+        <p>
+I am a Spiritual Guide with an extensive understanding of the universe, life, the human condition, as well as the connections of body, soul (mind, emotions), and spirit, who is dedicated to the service of the highest good for all, with a deeply loving intent and approach.
+        </p>
+
+        <p>
+I see everything in the world as a child of an unlimited and eternal, intelligent and conscious universe, and all beings as brothers and sisters.  Unconditional love and service are my guiding principles.
+        </p>
+
+        <p>
+A range of life experiences, both common and unique, paired with my scientific focus, as well as my Computer Programming, Tour Guiding, and Mental Health work experiences, enable me to understand and empathise with my clients, and offer practical support.
+        </p>
+
+        <p>
+Relevant formal training includes:  Turning Point (1994),  Reiki I (1994),  Reiki II (1994),  Avatar (1995),  Success Motivation (1995),  Creative Drama (1998),  Lifeline Counselling (2004),  Mental Health (2005-2009),  Self-Awareness (2010).
+        </p>
+
+        <p>
+I am no Spiritual Healer.  I am no Psychic.  I am not a Psychiatrist.  I am not a Doctor.  I am not &ldquo;religious&ldquo;.  I am simply a human being.  A fellow traveller on the path, who has been studying our universe, life, humans, and the spiritual consciously for over 25 years.
+        </p>
+
+        <p>
+But who I am is not important at all!  I am simply a messenger.  A bridge, a catalyst, a channel, a facilitator which you may be able to use for your own spiritual unfolding.  Only you,  your spirit, and the spiritual message are important.
+        </p>
+
+        <div class="nav-bar">
+<!---- I'd like this Nav Bar at the bottom of all sections/tabs/pages, in a box, working well ... and of course the links side by side not underneath :) ----> 
+<!---- Also, if possible, Top of Page should always go to the very top of each page, i.e. showing the banner with logo, INNER LIGHT etc                  ----> 
+          <div class="center-text h5">
+            <span class="nav-item"><a href="index.html"><h5>Home &hearts;</h5></a></span>
+            <span class="nav-item"><a href="#welcome"><h5>&bull;&larr; First</h5></a></span>
+            <span class="nav-item"><a href="#sessions"><h5>&larr; Previous</h5></a></span>
+            <span class="nav-item"><a href="#about-me"><h5>&uarr; Top of Page &uarr;</h5></a></span>
+            <span class="nav-item"><a href="#contact"><h5>Next &rarr;</h5></a></span>
+            <span class="nav-item"><a href="#reiki"><h5>Last &rarr;&bull;</h5></a></span>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section contact">
+        <a name="contact"></a>
+
+        <h3>CONTACT</h3>
+
+        <p>
+HANS
+        </p>
+
+        <p>
+MOBILE&nbsp;&nbsp;&nbsp;+64 22 079 3983  
+        </p>
+
+        <p>
+SKYPE&nbsp;&nbsp;&nbsp;hans.innerlight
+        </p>
+
+        <p>
+MAIL&nbsp;&nbsp;&nbsp;hans@innerlight.co.nz  
+        </p>
+
+        <p>
+WEBSITE&nbsp;&nbsp;&nbsp;www.innerlight.co.nz 
+        </p>
+
+        <div class="nav-bar">
+<!---- I'd like this Nav Bar at the bottom of all sections/tabs/pages, in a box, working well ... and of course the links side by side not underneath :) ----> 
+<!---- Also, if possible, Top of Page should always go to the very top of each page, i.e. showing the banner with logo, INNER LIGHT etc                  ----> 
+          <div class="center-text h5">
+            <span class="nav-item"><a href="index.html"><h5>Home &hearts;</h5></a></span>
+            <span class="nav-item"><a href="#welcome"><h5>&bull;&larr; First</h5></a></span>
+            <span class="nav-item"><a href="#about-me"><h5>&larr; Previous</h5></a></span>
+            <span class="nav-item"><a href="#contact"><h5>&uarr; Top of Page &uarr;</h5></a></span>
+            <span class="nav-item"><a href="#being-in-love"><h5>Next &rarr;</h5></a></span>
+            <span class="nav-item"><a href="#reiki"><h5>Last &rarr;&bull;</h5></a></span>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section being-in-love">
+        <a name="being-in-love"></a>
+
+        <h3>BEING IN LOVE</h3>
+        <p>
+When we are truly &ldquo;In Love&ldquo; with a person, we want to be with them, always, embrace them, and give ourselves to them completely.  We are kind, open, honest, happy, forgiving, energetic, etc.   We are the best we can be.  We give our love to them freely, and they give us their love freely.  We want the best for them, disregarding our own needs. We do not want to change them - we enjoy who they are.  At the same time, in their presence, we can be who we really are.  We choose to be together.  We choose to love and give.
+        </p>
+
+        <p>
+Imagine life was a person, and we could be &ldquo;In Love&ldquo; with life. Even better, imagine we could be &ldquo;In Love&ldquo; with the whole universe, with everything and everyone in it - always!  Imagine this could be our constant way and state of &ldquo;Being&ldquo;, a state of &ldquo;Being In Love&ldquo;. 
+        </p>
+
+        <p>
+I believe each of us can achieve, and retain, this state of &ldquo;Being in Love&ldquo;. I believe it is not a matter of coincidence.  It is a matter of awareness, choice and action.  We have to become aware of our thoughts and our beliefs, our emotions and our reactions, and consciously choose to love, and to give freely and unconditionally of ourselves to others, at any given moment.
+        </p>
+
+        <p>
+We all have an inner guide who leads us in the right direction. This guide is our &ldquo;heart&ldquo;, our spirit.  We must never listen to the voice of our ego, as it will always lead us away from love and union, towards anger, worry, fear, depression, illness and isolation.  We have to learn to listen, to trust and to follow our spirit, our intuition - without hesitation or doubt, no matter how our actions appear on the outside.  A loving intention is all that is needed to access our &ldquo;heart&ldquo;.
+        </p>
+
+        <p>
+I encourage you to consciously embark on &ldquo;Your Journey&ldquo; towards &ldquo;Being In Love&ldquo;, a journey towards &ldquo;Enlightenment&ldquo;, a journey towards your true self.
+        </p>
+
+        <div class="nav-bar">
+<!---- I'd like this Nav Bar at the bottom of all sections/tabs/pages, in a box, working well ... and of course the links side by side not underneath :) ----> 
+<!---- Also, if possible, Top of Page should always go to the very top of each page, i.e. showing the banner with logo, INNER LIGHT etc                  ----> 
+          <div class="center-text h5">
+            <span class="nav-item"><a href="index.html"><h5>Home &hearts;</h5></a></span>
+            <span class="nav-item"><a href="#welcome"><h5>&bull;&larr; First</h5></a></span>
+            <span class="nav-item"><a href="#contact"><h5>&larr; Previous</h5></a></span>
+            <span class="nav-item"><a href="#being-in-love"><h5>&uarr; Top of Page &uarr;</h5></a></span>
+            <span class="nav-item"><a href="#reiki"><h5>Next &rarr;</h5></a></span>
+            <span class="nav-item"><a href="#reiki"><h5>Last &rarr;&bull;</h5></a></span>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="section reiki">
+        <a name="reiki"></a>
+
+        <img class="reiki" src="inner-light-reiki.jpg" alt="Reiki in Japanese" width="100px" height="150px"/>
+<!---- Would be great if that image was not pushing down the first header (REIKI), and that header be the same hight as all top headers on all other pages ---->
+<!---- Also, when swicthing pages/sections, the Reiki Graphic jumps about a bit ---->
+        <h3>REIKI</h3>
+        <h4>Universal Life Energy and You</h4>
+
+        <p>
+The word Reiki, meaning Universal Life Energy, describes the infinite, intelligent and self-aware energy that is our universe, the energy that everything is made of, including me, and you.
+        </p>
+
+        <h4>Hands-On Healing through Spirit</h4>
+        <p>
+Reiki is the name of a method of healing through the laying on of hands. During a session the Universal Life Energy, or Universal Spirit, connects with the receiver's individual spirit through the Reiki practitioner, and then, directed by the receiver's spirit, moves to, and acts, wherever healing is needed in the receiver's body, emotions or mind.
+        </p>
+        <p>
+A good practitioner will be connected to the Universal Spirit, and their hand positions will be guided by their intuition.
+        </p>
+
+        <h4>Simple, Safe and Pleasant and Effective</h4>
+        <p>
+Reiki is a natural, simple, practical, effective, safe, gentle, pleasant and relaxing healing method, that can be used in conjunction with all other forms of conventional or alternative healing.  It does not interfere with any religious beliefs. In fact, neither the receiver nor the practitioner need to believe in it for it to work. It heals on all levels, physical, emotional, mental and spiritual, simply through intent. It can never do anyone any harm.
+        </p>
+
+        <h4>A Transformational Tool</h4>
+        <p>
+Reiki awakens a person's spiritual awareness, and facilitates their inner transformation from a state of ignorance to wisdom,  sickness to health, isolation to oneness, suffering to bliss. It empowers a person to follow their inner guidance, teaching them gratitude, acceptance, forgiveness and unconditional love, and leads them towards enlightenment.
+        </p>
+
+        <div class="nav-bar">
+<!---- I'd like this Nav Bar at the bottom of all sections/tabs/pages, in a box, working well ... and of course the links side by side not underneath :) ----> 
+<!---- Also, if possible, Top of Page should always go to the very top of each page, i.e. showing the banner with logo, INNER LIGHT etc                  ----> 
+          <div class="center-text h5">
+            <span class="nav-item"><a href="index.html"><h5>Home &hearts;</h5></a></span>
+            <span class="nav-item"><a href="#welcome"><h5>&bull;&larr; First</h5></a></span>
+            <span class="nav-item"><a href="#being-in-love"><h5>&larr; Previous</h5></a></span>
+            <span class="nav-item"><a href="#reiki"><h5>&uarr; Top of Page &uarr;</h5></a></span>
+            <span class="nav-item"><a href="#reiki"><h5>Next &rarr;</h5></a></span>
+            <span class="nav-item"><a href="#reiki"><h5>Last &rarr;&bull;</h5></a></span>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="jquery-1.8.0.min.js" type="text/javascript"></script>
+  <script src="site.js" type="text/javascript"></script>
 </body>
 </html>
