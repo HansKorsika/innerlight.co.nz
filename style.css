@@ -27,11 +27,11 @@ body {
 }
 
 .center-text a {
+  color: black;
   text-decoration: none;
 }
 
-.center-text h2 {
-  color: black;
+.center-text {
   font-style: bold;
 }
 
@@ -48,7 +48,10 @@ body {
 }
 
 .copyright {
-  float:right;
+  font-style: bold;
+  text-align: center;
+  font-size: 70%;
+  color: gray;
 }
 
 .header {
@@ -71,8 +74,8 @@ body {
   border-right: 1px solid;
   padding: 0px 2px 0px 2px;
   float:left;
-/*---- Adjusted tab width to fit more items. Also reduced the font size. ----*/
-  width:82px;
+  width:90px;
+  font-size: 1.1em;
   text-align:center;
 }
 
@@ -97,7 +100,7 @@ body {
   text-decoration: none;
 }
 
-.reiki {
+.reiki-kanji {
   float:right;
 }
 
@@ -114,6 +117,6 @@ body {
 }
 
 .title {
-  font-size:70%;
+ /* font-size:70%;*/
   float:right;
 }
