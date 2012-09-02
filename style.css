@@ -1,19 +1,20 @@
 /*---- Sorted Alphabetically ----*/
 
 body {
-  font-family:"Arial Rounded MT Bold", Helvetica, sans-serif;
-  font-family:"Verdana", Geneva, sans-serif;
-  font-family:"Tahoma", Geneva, sans-serif;
-  font-family:"Bradley Hand ITC", Geneva, cursive;
-  font-family:"Arial", Helvetica, sans-serif;
-  font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+/*  font-family:"Technical", Geneva, sans-serif;  /* Nice but not web-common */ */
+/*  font-family:"Arial Rounded MT Bold", Helvetica, sans-serif; */
+/*  font-family:"Verdana", Geneva, sans-serif; */
+/*  font-family:"Tahoma", Geneva, sans-serif; */
+/*  font-family:"Bradley Hand ITC", Geneva, cursive; */
+/*  font-family:"Arial", Helvetica, sans-serif; */
+/*  font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif; */
   font-family:"Times New Roman", Times, serif;   /* Default Font Face !? */
   font-size:100%;
 }
 
 .center {
-  width:700px;
-  margin:auto;
+  width: 700px;
+  margin: auto;
 }
 
 .center-logo {
@@ -22,8 +23,8 @@ body {
 }
 
 .center-text {
-  text-align:center;
-/*  font-family: "Tahoma"; */
+  text-align: center;
+  font-family: "Tahoma",s Geneva, sans-serif;
 }
 
 .center-text a {
@@ -41,7 +42,7 @@ body {
 }
 
 .clear {
-  clear:both;
+  clear: both;
 }
 
 .content h2 {
@@ -61,62 +62,70 @@ body {
 }
 
 .header span {
-  font-size:3em;
-  float:right;
+  font-size: 3em;
+  float: right;
   margin: 10px;
 }
 
 .logo {
-  float:left;
+  float: left;
+  padding-left: 10px;
 }
 
 .menu-item {
-  border-right: 1px solid;
-  padding: 0px 2px 0px 2px;
-  float:left;
-  width:90px;
+/*  border-right: 1px solid; */
+  padding: 0px 10px 0px 10px;
+  float: left;
+/*  width: 80px; */
   font-size: 1.1em;
-  text-align:center;
+  text-align: center;
 }
 
 .menu-item a {
-  color:black;
+  color: black;
   text-decoration: none;
 }
 
 .menu-item.right {
+  padding: 0px 10px 0px 10px;
   float:right;
   border-right: 0px;
-  border-left: 1px solid;
+/* border-left: 1px solid; */
 }
 
-.nav-bar {
-  border: 1px solid;
-  color: black;
-}
+/*
+For Navigation at Bottom
 
-.nav-item a {
-  color:black;
+.nav-item.previous {
+  float: left;
+  color: gray;
   text-decoration: none;
 }
 
+.nav-item.next {
+  float: right;
+} color: gray;
+  text-decoration: none;
+ 
+*/
+
 .reiki-kanji {
-  float:right;
+  float: right;
 }
 
 .tab-bar {
-/*---- Reduced the font size to fit long words better. Also adjusted tab width ----*/
-  font-size:80%;
-  border: 1px solid;
+  font-size: 80%;
+  border-bottom: 1px solid;
   border-top: 0px;
 }
 
 .tag-line {
-  font-size:48%;
-  float:right;
+  font-size: 48%;
+  float: right;
 }
 
 .title {
- /* font-size:70%;*/
-  float:right;
+  float: right;
+  padding-top: 10px;
+  padding-right: 15px;
 }
