@@ -8,8 +8,13 @@ body {
 /*  font-family:"Bradley Hand ITC", Geneva, cursive; */
 /*  font-family:"Arial", Helvetica, sans-serif; */
 /*  font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif; */
-  font-family:"Times New Roman", Times, serif;   /* Default Font Face !? */
+  font-family: "Times New Roman",Times,serif;   /* Default Font Face !? */
+  font-family: "Times New Roman",Times,serif;
   font-size:100%;
+}
+
+a:visited {
+  color:blue;
 }
 
 .center {
@@ -24,7 +29,7 @@ body {
 
 .center-text {
   text-align: center;
-  font-family: "Tahoma",s Geneva, sans-serif;
+  font-family: "Tahoma", Geneva, sans-serif;
 }
 
 .center-text a {
@@ -43,6 +48,7 @@ body {
 
 .clear {
   clear: both;
+  height: 0px;
 }
 
 .content h2 {
@@ -69,14 +75,11 @@ body {
 
 .logo {
   float: left;
-  padding-left: 10px;
 }
 
 .menu-item {
-/*  border-right: 1px solid; */
   padding: 0px 10px 0px 10px;
   float: left;
-/*  width: 80px; */
   font-size: 1.1em;
   text-align: center;
 }
@@ -90,24 +93,20 @@ body {
   padding: 0px 10px 0px 10px;
   float:right;
   border-right: 0px;
-/* border-left: 1px solid; */
 }
 
-/*
-For Navigation at Bottom
-
-.nav-item.previous {
-  float: left;
+.nav-item a {
   color: gray;
   text-decoration: none;
 }
 
+.nav-item.previous {
+  float: left;
+}
+
 .nav-item.next {
   float: right;
-} color: gray;
-  text-decoration: none;
- 
-*/
+}
 
 .reiki-kanji {
   float: right;
@@ -128,4 +127,9 @@ For Navigation at Bottom
   float: right;
   padding-top: 10px;
   padding-right: 15px;
+}
+
+.slogan {
+  font-weight:bold;
+  font-size: 1.2em;
 }
