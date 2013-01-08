@@ -1,22 +1,21 @@
-$ = jQuery;
-$('.section').hide();
-
 var currentSection = "";
+
+var changeHandler = function (e, skipAnimate) {
+  var hash = window.location.hash.substring(1);
+  if (currentSection == hash)
+    return;
+  $('.section').hide(!skipAnimate && 500);
+  $('.section.' + hash).show(!skipAnimate && 300);
+  currentSection = hash;
+};
 
 $('.menu-item a').on('click', function (e) {
   e.preventDefault();
-  var anchor = $(this).attr('href').substring(1);
-  if (currentSection == anchor)
-    return;
-  currentSection = anchor;
-  window.location.hash = anchor;
-  $('.section').hide(500);
-  $('.section.' + anchor).show(300);
+  window.location.hash = $(this).attr('href');
+  changeHandler();
 });
 
-$(function () {
-  var hash = document.location.hash || "#welcome";
-  hash = hash.substring(1);
-  $('.section.' + hash).show();
-  var currentSection = hash;
-});
+window.location.hash = window.location.hash || "welcome";
+changeHandler(null, true);
+
+window.onhashchange = changeHandler;
